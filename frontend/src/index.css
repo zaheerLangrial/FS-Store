@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+textarea:where(.css-dev-only-do-not-override-apn68).ant-input {
+    min-height: 65px !important;
+}
